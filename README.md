@@ -12,16 +12,17 @@ Aplikasi sederhana menggunakan Flutter yang menampilkan teks Hello, World!, iden
 
 ## 3. Informasi Flutter
 Hasil pemeriksaan versi Flutter (flutter --version):
-Flutter 3.50.0 • channel stable • [https://github.com/flutter/flutter.git](https://github.com/flutter/flutter.git)
+Flutter 3.50.0 • channel stable • https://github.com/flutter/flutter.git
 Framework • revision ab2912035e (6 days ago) • 2026-11-09 08:50:21 -0800
 Engine • hash bf601093ad255aaf5c6d0fc5c4f9acfa60943b2a (revision 371f77202a) (5 days ago) • 2026-11-09 15:57:36.000Z
 Tools • Dart 3.14.0 • DevTools 2.61.0
 
 ## 4. Screenshot
-- Flutter Doctor:
-  screenshots/flutter-doctor.png
-- Aplikasi Berjalan di Emulator:
-  screenshots/hasil-emulator.png
+### Flutter Doctor
+![Flutter Doctor](screenshots/flutter-doctor.png)
+
+### Aplikasi Berjalan di Emulator
+![Hasil Emulator](screenshots/hasil-emulator.png)
 
 ## 5. Kendala dan Solusi
 1. Pemblokiran Kebijakan Keamanan Windows (Application Control Policy):
@@ -37,7 +38,7 @@ Tools • Dart 3.14.0 • DevTools 2.61.0
 - Cross-platform: Satu basis kode untuk banyak platform (contohnya Flutter dengan mesin rendering sendiri), performa tinggi mendekati native.
 
 ## 7. Pernyataan Penggunaan AI
-Dalam pengerjaan tugas ini, asisten AI (Gemini) digunakan untuk membantu mendiagnosis galat sistem (kendala NDK dan kebijakan keamanan Windows) serta menyusun struktur laporan. Seluruh proses instalasi, pengujian emulator, dan penulisan kode dilakukan secara mandiri.
+Dalam pengerjaan tugas ini, asisten AI digunakan untuk membantu mendiagnosis galat sistem (kendala NDK dan kebijakan keamanan Windows) serta menyusun struktur laporan. Seluruh proses instalasi, pengujian emulator, dan penulisan kode dilakukan secara mandiri.
 
 ## 8. Pengujian Aplikasi
 Pengujian otomatis menggunakan unit/widget test (flutter test) telah dijalankan dan seluruh pengujian berhasil lulus (All tests passed).
